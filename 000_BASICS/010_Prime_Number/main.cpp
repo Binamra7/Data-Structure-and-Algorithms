@@ -3,9 +3,9 @@
 
 using namespace std;
 
-bool checkPrime(int num)
+bool checkPrime(int n)
 {
-    for(int i=2; i<sqrt(n); i++)
+    for(int i=2; i<=sqrt(n); i++)
     {
         if(n%i == 0)
         {
